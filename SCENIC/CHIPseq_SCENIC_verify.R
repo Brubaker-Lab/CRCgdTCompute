@@ -42,7 +42,7 @@ tss_files      <- list.files(target_tss_dir,
                              pattern="no_source_tss_5kb_for_.*\\.bed$",
                              full.names=TRUE)
 
-# get the full list of cell‑types in your ChIP data
+# get the full list of cell‑types in the ChIP data
 all_celltypes <- unique(mcols(all_gr)$celltype)
 
 results_list <- list()
